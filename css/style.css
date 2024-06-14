@@ -1,0 +1,22 @@
+.box {
+    min-height: 150px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+
+.h-100 {
+    height: 100px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-400 {
+    height: 400px;
+}
