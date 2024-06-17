@@ -8,15 +8,25 @@ header {
     background-color: #2C3E50;
 }
 
-img {
+.navbar .navbar-brand,
+.navbar .navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+img,
+svg {
     width: 100%;
     height: 100%;
 }
 
 #avatar {
-    height: 100%;
-    width: 100%;
+    width: 20%;
 }
+
 
 .top-footer {
     background-color: #3A546D;
@@ -26,33 +36,52 @@ img {
     background-color: #2C3E50;
 }
 
-.header-content {
-    background-color: red;
-    height: 75px;
-    border: 1px solid black;
+
+
+.lines::after,
+.lines::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    vertical-align: middle;
+    display: inline-block;
 }
 
-.jumbo-content {
-    background-color: orange;
-    height: 350px;
+
+.lines:after {
+    margin-left: 5px;
+}
+
+.lines:before {
+    margin-right: 5px;
 }
 
 
-.content {
-    background-color: red;
-    border: 1px solid black;
-    height: 150px;
+.lines-black::after,
+.lines-black::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.lines-black:after {
+    margin-left: 5px;
+}
+
+.lines-black:before {
+    margin-right: 5px;
 }
 
 .text-white {
     color: #fff;
 }
 
-.box {
-    min-height: 150px;
-    border: 1px solid black;
-    background-color: red;
-}
+
 
 .underline-input {
     padding: 10px 5px;
@@ -60,6 +89,28 @@ img {
     border: none;
     display: block;
     width: 100%;
+}
+
+.download {
+    color: #fff;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 10%;
+    margin-top: 10px;
+    display: block;
+    border: #fff 1px solid;
+}
+
+#bn-send {
+    color: #fff;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 5%;
+    margin-top: 10px;
+    display: block;
+    border: none;
 }
 
 .bg-green {
