@@ -8,6 +8,16 @@ header {
     background-color: #2C3E50;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#avatar {
+    height: 100%;
+    width: 100%;
+}
+
 .top-footer {
     background-color: #3A546D;
 }
@@ -35,7 +45,7 @@ header {
 }
 
 .text-white {
-    color: white;
+    color: #fff;
 }
 
 .box {
